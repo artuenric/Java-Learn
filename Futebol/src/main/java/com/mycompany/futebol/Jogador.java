@@ -13,8 +13,8 @@ public class Jogador implements Jogar{
         this.numero = numero;
         this.posicao = posicao;
         // Jogador começa não emCampo, consequentemente, sem posse de bola
-        this.setEmCampo(false);
-        this.setPosse(false);
+        this.emCampo = false;
+        this.posse = false;
     }
     
     // Status
